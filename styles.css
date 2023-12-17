@@ -1,0 +1,30 @@
+
+        a.content-link {
+            color: #000 !important; /* Set the text color to black */
+            text-decoration: none !important; /* Remove underline */
+            transition: color 0.3s; /* Add a smooth color transition */
+            font-weight: bold; /* Make the text bold */
+        }
+    
+        a.content-link :hover {
+            color: #333 !important; /* Change color on hover */
+        }
+
+header.bg-dark {
+    background-image: url('./images/background-abstract.png'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 0; /* Adjust the padding as needed */
+}
+
+header.bg-dark h1,
+header.bg-dark p {
+    margin: 0;
+}
+
+.custom-img-size {
+    max-width: 300px; /* Set a maximum width if needed */
+    max-height: 200px; /* Set a maximum height if needed */
+}

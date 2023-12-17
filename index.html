@@ -1,4 +1,110 @@
-<html>
-  <h1>Paul's Portfolio</h1>
-  <img src="./white-house.jpg" />
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Paul Ngouabeu - Portfolio</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="bg-dark text-light text-center py-5">
+      <h1>Paul Ngouabeu</h1>
+      <p class="lead">Software Engineer</p>
+    </header>
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container d-flex justify-content-center">
+        <a class="navbar-brand" href="#">Home</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- main container -->
+    <main class="container mt-5">
+      <!-- about section -->
+      <section id="about" class="mb-5">
+        <h2 class="text-center mb-4">About Me</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              src="./images/paul-photo.jpeg"
+              alt="Your Photo"
+              class="img-fluid rounded-circle mb-4"
+            />
+          </div>
+          <div class="col-md-6">
+            <p>
+              Hi there! I'm Paul Ngouabeu, a passionate web developer. I love
+              creating websites and applications that make a positive impact. My
+              journey in the world of web development has been exciting and
+              filled with continuous learning.
+            </p>
+            <p>
+              Currently, I'm exploring the latest technologies and trends to
+              stay ahead in this ever-evolving field. Feel free to explore my
+              <a class="content-link" href="projects.html">projects</a> to see
+              some of my work.
+            </p>
+            <p>
+              Connect with me on
+              <a
+                class="content-link"
+                href="https://www.linkedin.com/in/paul-ngouabeu"
+                target="_blank"
+                >LinkedIn</a
+              >
+              or shoot me an email at
+              <a class="content-link" href="mailto:ngouabeupaul@gmail.com"
+                >ngouabeupaul@gmail.com</a
+              >. I'd love to hear from you!
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- video section -->
+      <section id="video" class="mb-5">
+        <h2 class="text-center mb-4">My Work in Action</h2>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe
+            class="embed-responsive-item"
+            src="https://www.youtube.com/embed/IXbuVeJm6sc"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="bg-dark text-light text-center py-3">
+      <p>&copy; 2023 Paul Ngouabeu. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
